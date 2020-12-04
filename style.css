@@ -1,0 +1,175 @@
+
+.navbar-right {
+    position: absolute;
+    right: 0;
+  }
+  
+  .relative {
+    position: relative;
+  }
+  
+  .img-fluid{
+      max-width: 80px;
+  }
+
+  .heading{
+      padding: 80px;
+      font-size: 42px;
+      font-weight: 700;
+      color: black;
+  }
+
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: 700;
+  }
+
+  .button4{
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+  }
+  .button4:hover{
+      background-color: white;
+      color: black;
+  }
+  .button5 {
+    background-color: white;
+    color: black;
+
+    border: 2px solid black;
+  }
+  
+  .button5:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .image img{
+      width: 100%;
+      height: 80%;
+      object-fit: cover;
+  }
+  img{
+      max-width: 100%;
+      max-height: 100%;
+      vertical-align: middle;
+  }
+  .heading1{
+    margin-top: 35px;
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+  }
+
+  .success{
+    margin-top: 30px;
+    font-size: 26px;
+    font-weight: 550;
+    
+  }
+
+  .aboutus h3{
+      padding-top: 20px;
+      font-size: 35px;
+      color: white;
+  }
+  .aboutus p{
+      color: white;
+  }
+
+
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  @media screen and (max-width:1024px)
+	{
+        .navbar-toggler {
+            right: 0;
+            position: absolute;
+            margin: 10px;
+          } 
+          .heading{
+            padding: 40px;
+            font-size: 38px;
+            font-weight: 700;
+        }
+        .heading1{
+            padding: 20px;
+            font-size: 38px;
+            font-weight: 700;
+        }
+        .success{
+            font-size: 24px;
+          }
+    }
+  @media only screen and (max-width:768px) {
+    .navbar-brand {
+      max-width: 100px;
+    }
+    /* below is for the demo but might help you position 
+    the hamburger menu on mobile */
+    .navbar-toggler {
+      right: 0;
+      position: absolute;
+      margin: 10px;
+    }
+    .heading{
+
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .heading1{
+        padding: 10px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .img-fluid{
+        margin-left: 20px;
+    }
+    .success{
+      
+        font-size: 20px;
+       
+        
+      }
+  }
